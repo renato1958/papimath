@@ -52,8 +52,8 @@ void MathFac::calcolaMedia() const
     
     if(numeroEsami != 0) {
         cout << setprecision(2) << fixed;
-        cout << "Il punteggio dei " << numeroEsami << " che ho dato è " << punteggioTotale << endl;
-        cout << "La media è " << punteggioTotale / numeroEsami << "!" << endl;
+        cout << "\nIl punteggio totale dei " << numeroEsami << " esami che ho dato è " << punteggioTotale << endl;
+        cout << "La media è " << punteggioTotale / numeroEsami << "!\n" << endl;
     } else {
         cout << "Non hai immesso alcun esame!" << endl;
     }
